@@ -6,6 +6,9 @@ nav{
 body{
     background-image: linear-gradient(90deg, #00DBDE 0%, #540256 100%);
 }
+h1{
+    color: chocolate;
+}
 #nombreDigimon{
     text-align: center;
     background-color: rgb(26, 202, 242);
