@@ -9,6 +9,11 @@ body{
 h1{
     color: chocolate;
 }
+#imagenDigimon{
+    padding: 4PX;
+    background-color: burlywood;
+
+}
 #nombreDigimon{
     text-align: center;
     background-color: rgb(26, 202, 242);
