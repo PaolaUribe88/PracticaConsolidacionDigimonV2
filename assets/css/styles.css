@@ -8,10 +8,37 @@ body{
 }
 h1{
     color: chocolate;
+    background-image: linear-gradient(90deg,  #540256 0%, #00DBDE 100%);
+}
+a{
+    background-color: rgb(87, 52, 152);;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    width: 30%;
+}
+.divHistoria{
+    background-color: burlywood;
+}
+#botonBarra{
+    background-color: aliceblue;
+    color: black;
+}
+#historiaDigimon{
+
+    display: inline-block;
+    padding: 10%;
+    margin-top: 10%;
+    color: black;
+    
 }
 #imagenDigimon{
     padding: 4PX;
     background-color: burlywood;
+    width: 100%;
+   
 
 }
 #nombreDigimon{
@@ -40,6 +67,7 @@ h1{
 #divContainer{
     margin-top: 5%;
 }
+
 #mi_footer{/*estilos de id #*/
     background-image: url("../img/3.jpeg");
     background-repeat: repeat-x;

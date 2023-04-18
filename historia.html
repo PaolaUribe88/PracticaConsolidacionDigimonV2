@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSUMO DE API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <link rel="shortcut icon" href="assets/img/FAVICON.png">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!--COMIENZA NAV-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="assets/img/images.jpeg" alt="" width="120" height="90">
+               
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listadoDigimon.html">LISTADO DIGIMON</a>
+            </li>            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" type="text" value="" placeholder="Nombre del Digimon" id="nombreProporcionado" aria-label="Search">
+            <input id="consumo" type="button" value="Buscar Digimon" onclick="consumoDigiApi()">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="historiaDigimon">
+        <div class="col">
+          <h1 align="center">TABLA DE CAPITULOS EMITIDO</h1>
+            <img width="100%" src="assets/img/tabla.png">
+        </div><br><br><br>
+        <div class="divHistoria">
+            
+            <div class="col">
+                <div>
+                    <h2>
+                    La saga comenzó en 1997 a partir de una mascota virtual conocida como Digimon 
+                    Virtual Pet, basado en la franquicia Tamagotchi.2​ Sin embargo, su popularidad 
+                    aumentó con la emisión en 1999 de una serie de anime (Digimon Adventure) y el 
+                    lanzamiento de un videojuego titulado Digimon World. La saga Digimon ocupó, 
+                    en una encuesta realizada en la TV Asahi en 2006, el puesto número 54 de entre 
+                    los 100 mejores animes de la historia.3</h2>
+                </div>
+                <div>
+                    <h2>
+                    Modelo de Virtual pet distribuido en el mercado japonés por Bandai,,4​ que 
+                    permitió la popularización de Digimon en Japón y vendió 50 mil unidades en 
+                    todo el mundo hasta marzo de 2004.5
+                    </h2>
+                </div>
+                <div>
+                    <h2>
+                    El argumento de la saga está basado en un mundo paralelo conocido como Mundo 
+                    Digital, que está habitado por unas criaturas ficticias llamadas Digimon. 
+                    Son formas de vida artificial creadas a partir de bits y piezas perdidas de 
+                    datos de ordenadores, que habitan dentro de los aparatos electrónicos que 
+                    posean memorias no volátiles. Los Digimon son criados por humanos llamados 
+                    "Tamers" (niños elegidos en Digimon Adventure y en su secuela Digimon 02) para 
+                    combatir a los villanos que amenazan con destruir el equilibrio del Mundo Digital.
+                </h2>
+            </div>   
+        </div>
+    </div>
+    <!--FIN NAV-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="assets/js/prueba.js"></script>
+</body>
+<br><br><br>
+<footer id="mi_footer" class="footer">
+  <div class="organizacion_footer"></div>
+  <B><div class="organizacion_footer"><p id="el_texto_reservado">TODOS LOS DERECHOS RESERVADOS &#174 REALIZA JU</p> <!--&#174 codigo acci--> </div></B>    
+  <div class="organizacion_footer"></div> 
+</footer>
+</html>
